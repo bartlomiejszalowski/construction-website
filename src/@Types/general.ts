@@ -32,3 +32,9 @@ export type WorkDataType = {
   description: string;
   href: string;
 };
+
+export type OpinionType = {
+  imageSrc: string;
+  opinion: string;
+  author: string;
+};

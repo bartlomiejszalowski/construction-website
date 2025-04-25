@@ -1,14 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  RiArrowRightUpLine,
-  RiArrowUpLine,
-  RiCheckboxCircleFill,
-} from "react-icons/ri";
+import { RiArrowRightUpLine, RiCheckboxCircleFill } from "react-icons/ri";
 
+import Pretitle from "@/components/Pretitle";
 import { workData } from "@/constants/workData";
-
-import Pretitle from "./Pretitle";
 
 const Work = () => {
   return (

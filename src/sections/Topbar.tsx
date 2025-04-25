@@ -1,6 +1,6 @@
 import { RiMailFill, RiPhoneFill } from "react-icons/ri";
 
-import Socials from "./Socials";
+import Socials from "../components/Socials";
 
 const Topbar = () => {
   return (

@@ -6,8 +6,8 @@ import { Link as ScrollLink } from "react-scroll";
 import { LinkType } from "@/@Types/general";
 import { links } from "@/constants/links";
 
-import Logo from "./Logo";
-import NavMobile from "./NavMobile";
+import Logo from "../components/Logo";
+import NavMobile from "../components/NavMobile";
 
 const Header = () => {
   return (

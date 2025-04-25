@@ -5,11 +5,10 @@ import Image from "next/image";
 import { useState } from "react";
 
 import { ServiceDataType } from "@/@Types/general";
+import Button from "@/components/Button";
+import Pretitle from "@/components/Pretitle";
+import { TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { serviceData } from "@/constants/services";
-
-import Button from "./Button";
-import Pretitle from "./Pretitle";
-import { TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 
 const Services = () => {
   const [activeTab, setActiveTab] = useState<string>("construction");

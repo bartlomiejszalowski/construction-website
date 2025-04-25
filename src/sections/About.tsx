@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import Button from "./Button";
-import Pretitle from "./Pretitle";
+import Button from "@/components/Button";
+import Pretitle from "@/components/Pretitle";
 
 const About = () => {
   return (
